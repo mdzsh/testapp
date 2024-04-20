@@ -1,3 +1,4 @@
+docker pull golang
 # build stage
 FROM golang:alpine AS build-env
 ADD . /src
